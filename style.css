@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.top-bar {
+    background: #006a4e; /* Bangladesh Green */
+    color: white;
+    padding: 5px 10% ;
+    font-size: 12px;
+}
+
+.main-header {
+    background: white;
+    padding: 20px 10%;
+    border-bottom: 3px solid #f42a41; /* Bangladesh Red */
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.logo-area h1 {
+    margin-left: 20px;
+    color: #006a4e;
+    font-size: 24px;
+}
+
+.navbar {
+    background: #006a4e;
+    padding: 0 10%;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.navbar li a:hover {
+    background: #004d39;
+}
+
+.container {
+    display: flex;
+    padding: 20px 10%;
+    gap: 20px;
+}
+
+.content {
+    flex: 3;
+    background: white;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.card h4 {
+    background: #006a4e;
+    color: white;
+    margin: -15px -15px 15px -15px;
+    padding: 10px;
+}
+
+.sidebar-links {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.sidebar-links li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
